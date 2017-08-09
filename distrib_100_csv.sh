@@ -4,7 +4,7 @@
 
 
 #curl -XDELETE http://sdf-elk-dev:9200/*
-/opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/elk_100_csv.conf
+/opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib_100_csv.conf
 
 
 
