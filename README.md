@@ -1,6 +1,6 @@
 # elk_hello_world
 Petit Hello World pour commencer à faire joujou avec ELK
-zf170809.1458
+zf170809.1458,zf170809.1516
 
 ATTENTION !
 
@@ -11,4 +11,5 @@ Les fichiers *_100* sont pour un jeu de 100 lignes seulement de logs pour faire 
 Les fichiers *_all* sont pour un jeu complet de lignes de logs qui se trouvent un dossier plus haut<br>
 Les fichier *csv* sont utilisés avec Logstash et le filtre csv<br>
 Les fichiers *grok* sont utilisés avec Logstash et le filtre GROK<br>
+Les fichier *.sh sont pour lancer les jeux de tests<br>
 
