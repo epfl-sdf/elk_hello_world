@@ -1,0 +1,61 @@
+input {
+  file {
+    path => "/home/ubuntu/elk_hello_world/dns.log"
+    start_position => "beginning"
+    sincedb_path => "/dev/null"
+  }
+}
+
+# Custom patterns
+IP_PERSO [0-9]+.[0-9]+.[0-9]+.[0-9]+
+PORT [0-9]+
+TRASH [0-9+ A?]+
+
+filter {
+  grok {
+    match => { "message" => "%{HOUR:heure} IP %{IP:ip_1} > %{IP:ip_2}: %{NUMBER:champs_1}+ %{WORD:champs_2} %{URIPATH:website} (%{NUMBER:code})" }
+  } 
+
+  mutate {
+    convert => {
+      "heure" => "string"
+      "ip_1" => "string"
+      "ip_2" => "string"
+      "champs_1" => "string"
+      "champs_2" => "string"
+      "website" => "string"
+      "code" => "string"
+    }
+  }
+  
+  date {
+    match => ["date", "yyyyMMdd.HHmmss"]
+  }
+
+  ruby {
+    add_field => {"ip_public" => "0"}
+    code => event[ip_public] = event.get('ip_1')[0..1]
+  }
+  
+  if [ip_public] == "10" {
+    mutate {
+      replace => {"ip_public" => "%{ip_1}"}
+      add_field => {"ip_prive" => "%{ip_2}"}
+                    "Direction" => "envoye"}
+    }
+  }
+  else {
+    mutate {
+      16:09:32.634524 IP 10.92.103.53.53 > 128.178.1.196.62133: 53116 2/4/8 CNAME d.v.dropbox.com., A 162.125.32.5 (377)
+}
+
+output {
+  elasticsearch {
+    index => "zuzu20170808.1012"
+    document_type => "zdyndns"
+    hosts => "http://10.92.104.198:9200"
+  }
+  stdout {
+    codec => json
+  }
+}
