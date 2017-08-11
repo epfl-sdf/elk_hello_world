@@ -4,7 +4,7 @@
 
 
 curl -XDELETE http://10.92.104.200:9200/*
-/opt/logstash/bin/logstash -f /home/ubuntu/data-elk/dns_100_grok_save20170810.conf
+/opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/dns_all_grok.conf
 
 
 
