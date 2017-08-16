@@ -1,0 +1,42 @@
+{
+  "wwp_log_20170815" : {
+    "mappings" : {
+      "logstash_grok" : {
+        "properties" : {
+          "@timestamp" : {
+            "type" : "date",
+            "format" : "strict_date_optional_time||epoch_millis"
+          },
+          "@version" : {
+            "type" : "string"
+          },
+          "erreur_analyse" : {
+            "type" : "string"
+          },
+          "erreur_unanalyse" : {
+            "type" : "string",
+            "index" : "not_analyzed"
+          },
+          "host" : {
+            "type" : "string"
+          },
+          "message" : {
+            "type" : "string"
+          },
+          "path" : {
+            "type" : "string"
+          },
+          "reste" : {
+            "type" : "string"
+          },
+          "site" : {
+            "type" : "string"
+          },
+          "zdate" : {
+            "type" : "string"
+          }
+        }
+      }
+    }
+  }
+}
