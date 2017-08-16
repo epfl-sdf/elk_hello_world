@@ -1,7 +1,11 @@
 {
-  "wwp_log_20170815" : {
+  "template" : "wwp_log_20170816*",
+  "version" : 1,
+  "settings" : {
+    "index.refresh_interval" : "5s"
+  },
     "mappings" : {
-      "logstash_grok" : {
+      "_default_" : {
         "properties" : {
           "@timestamp" : {
             "type" : "date",
@@ -10,17 +14,20 @@
           "@version" : {
             "type" : "string"
           },
-          "erreur_analyse" : {
+          "code_erreur_analyzed" : {
             "type" : "string"
           },
-          "erreur_unanalyse" : {
+          "code_erreur_tokenized" : {
             "type" : "string",
-            "index" : "not_analyzed"
+            "analyzer" : "whitespace"
           },
           "host" : {
             "type" : "string"
           },
           "message" : {
+            "type" : "string"
+          },
+          "nom_erreur" : {
             "type" : "string"
           },
           "path" : {
@@ -39,4 +46,4 @@
       }
     }
   }
-}
+
