@@ -1,6 +1,6 @@
 #!/bin/bash
 # petit script pour installer le binz
-#zf170817.1126
+#zf170817.1758
 
 #source: https://www.supinfo.com/articles/single/2498-elk-installation-configuration
 
@@ -28,6 +28,11 @@ echo "deb http://packages.elastic.co/logstash/2.3/debian stable main" | sudo tee
 sudo apt-get update
 sudo apt-get  -y install logstash
 
+sudo /opt/logstash/bin/logstash-plugin install logstash-input-elasticsearch
+sudo /opt/logstash/bin/logstash-plugin install logstash-filter-elasticsearch
+#ATTENTION c'est vraiment pas bien ce que je fais ICI, mais c'est juste en attendant la nouvelle version ! zf170817.1758
+sudo chmod -R 777 /opt/logstash/
+
 echo "deb http://packages.elastic.co/kibana/4.5/debian stable main" | sudo tee -a /etc/apt/sources.list
 sudo apt-get update
 sudo apt-get -y install kibana
@@ -46,7 +51,4 @@ sudo service elasticsearch restart
 echo "server.host: "$THEIP | sudo tee -a /opt/kibana/config/kibana.yml
 echo "elasticsearch.url: http://"$THEIP":9200" | sudo tee -a /opt/kibana/config/kibana.yml
 sudo service kibana restart
-
-
-
 
