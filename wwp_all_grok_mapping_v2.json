@@ -6,7 +6,7 @@
   },
   "mappings" : {
     "_default_" : {
-      "properties" : {
+    "properties" : {
         "@timestamp" : {
           "type" : "date",
           "format" : "strict_date_optional_time||epoch_millis"
@@ -15,7 +15,7 @@
           "type" : "string"
         },
         "code_erreur_analyzed" : {
-          "type" : "string"
+        "type" : "string"
         },
         "code_erreur_unanalyzed" : {
           "type" : "string",
@@ -27,12 +27,15 @@
         "message" : {
           "type" : "string"
         },
-        "nom_erreur" : {
+         "nom_erreur_unanalyzed" : {
           "type" : "string",
           "index" : "not_analyzed"
         },
+         "nom_erreur_analyzed" : {
+          "type" : "string",
+        },
         "path" : {
-          "type" : "string"
+           "type" : "string"
         },
         "reste" : {
           "type" : "string"
@@ -47,4 +50,3 @@
     }
   }
 }
-

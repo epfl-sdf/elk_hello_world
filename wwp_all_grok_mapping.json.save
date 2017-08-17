@@ -1,0 +1,48 @@
+{
+  "template" : "wwp_log_20170816*",
+  "version" : 1,
+  "settings" : {
+    "index.refresh_interval" : "5s"
+  },
+    "mappings" : {
+      "_default_" : {
+        "properties" : {
+          "@timestamp" : {
+            "type" : "date",
+            "format" : "strict_date_optional_time||epoch_millis"
+          },
+          "@version" : {
+            "type" : "string"
+          },
+          "code_erreur_analyzed" : {
+            "type" : "string"
+          },
+          "code_erreur_tokenized" : {
+            "type" : "string",
+dns_100_grok_save20170810.conf          },
+          "host" : {
+            "type" : "string"
+          },
+          "message" : {
+            "type" : "string"
+          },
+          "nom_erreur" : {
+            "type" : "string"
+          },
+          "path" : {
+            "type" : "string"
+          },
+          "reste" : {
+            "type" : "string"
+          },
+          "site" : {
+            "type" : "string"
+          },
+          "zdate" : {
+            "type" : "string"
+          }
+        }
+      }
+    }
+  }
+
