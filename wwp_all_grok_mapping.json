@@ -1,5 +1,5 @@
 {
-  "template" : "wwp_log_20170816*",
+  "template" : "wwp_log_20170817*",
   "version" : 1,
   "settings" : {
     "index.refresh_interval" : "5s"
@@ -17,9 +17,9 @@
           "code_erreur_analyzed" : {
             "type" : "string"
           },
-          "code_erreur_tokenized" : {
+          "code_erreur_unanalyzed" : {
             "type" : "string",
-            "analyzer" : "whitespace"
+            "index" : "not_analyzed"
           },
           "host" : {
             "type" : "string"
@@ -27,8 +27,12 @@
           "message" : {
             "type" : "string"
           },
-          "nom_erreur" : {
+          "nom_erreur_analyzed" : {
             "type" : "string"
+          },
+          "nom_erreur_unanalyzed" : {
+            "type" : "string"
+            "index" : "not_analyzed"
           },
           "path" : {
             "type" : "string"
