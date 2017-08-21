@@ -19,19 +19,21 @@ elif [ -z $ELASTOC_IDX ] ; then
         echo "ERREUR: pass assez d'argument, preciser l'index"
         exit
 else
-        echo "chargement de l'hote et de l'index"
-#        curl -XDELETE $ELASTOC_SRV/$ELASTOC_IDX
+        echo "chargement de l'hote $1 et de l'index $2"
+        curl -XDELETE $ELASTOC_SRV/$ELASTOC_IDX
 fi
 
 # Test si reset ou non
 if [ "$3" == "reset" ] ; then
-        echo "reset du template"
+        echo " reset du template"
         curl -XDELETE http://$ELASTOC_SRV/_template/$ELASTOC_IDX
         curl -XPUT http://$ELASTOC_SRV/_template/$ELASTOC_IDX?pretty -d @wwp_all_grok_mapping.json
 else
-        echo "pas de reset du template"
+        echo " pas de reset du template"
 fi
 
-#/opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_csv_youssef.conf --allow-env &
+/usr/share/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_csv_youssef.conf&
 
-watch -n 30  /opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_elastic_youssef.conf --allow-env
+sleep 300
+
+watch -n 300 /usr/share/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_elastic_youssef.conf
