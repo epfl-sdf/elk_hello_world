@@ -20,7 +20,7 @@ elif [ -z $ELASTOC_IDX ] ; then
         exit
 else
         echo "chargement de l'hote et de l'index"
-        curl -XDELETE $ELASTOC_SRV/$ELASTOC_IDX
+#        curl -XDELETE $ELASTOC_SRV/$ELASTOC_IDX
 fi
 
 # Test si reset ou non
@@ -32,6 +32,6 @@ else
         echo "pas de reset du template"
 fi
 
-/opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_csv_youssef.conf --allow-env &
+#/opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_csv_youssef.conf --allow-env &
 
 watch -n 30  /opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_elastic_youssef.conf --allow-env

@@ -1,5 +1,5 @@
 {
-  "template" : "wwp_log_20170817.2212*",
+  "template" : "wwpcsv1",
   "version" : 1,
   "settings" : {
     "index.refresh_interval" : "5s"
