@@ -1,8 +1,7 @@
 #!/bin/bash
 # petit script pour installer le binz
 #zf170817.1758
-
-#source: https://www.supinfo.com/articles/single/2498-elk-installation-configuration
+#source: https://www.rosehosting.com/blog/install-and-configure-the-elk-stack-on-ubuntu-16-04/
 
 sudo apt-get -y install jruby
 
