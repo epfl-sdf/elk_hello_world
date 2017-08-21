@@ -14,7 +14,7 @@ elif [ "$1" == "-help" ] ; then
 	echo "specifie les bons arguments; 1-le serveur hote, 2-l'index, 3-'reset' si on veut reseter le template"
 	exit
 elif [ -z $ELASTOC_IDX ] ; then
-	echo "ERREUR: pass assez d'argument, preciser l'index"
+	echo "ERREUR: pas assez d'argument, preciser l'index"
 	exit
 else
 	echo "chargement de l'hote et de l'index"
