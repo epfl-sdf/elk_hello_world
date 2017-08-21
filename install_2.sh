@@ -44,11 +44,15 @@ echo "server.host: "$THEIP | sudo tee -a /opt/kibana/config/kibana.yml
 echo "elasticsearch.url: http://"$THEIP":9200" | sudo tee -a /opt/kibana/config/kibana.yml
 sudo service kibana restart
 
+sudo ./usr/share/logstash/bin/logstash-plugin install logstash-filter-elasticsearch
+sudo chmod -R 777 /usr/share/logstash/data
+
+
 #a faire toi meme
 #-Xms300m
 #-Xmx300m
 
 
-sudo nano /etc/elasticsearch/jvm.options
+#sudo nano /etc/elasticsearch/jvm.options
 
 
