@@ -19,6 +19,8 @@ sudo apt-get -y install oracle-java8-set-default
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key ad$
 echo "deb https://artifacts.elastic.co/packages/5.x/apt stable main" | sudo tee$
 
+sudo apt-get update
+
 sudo apt-get -y install elasticsearch
 
 sudo update-rc.d elasticsearch defaults 95 10
@@ -44,7 +46,7 @@ echo "server.host: "$THEIP | sudo tee -a /opt/kibana/config/kibana.yml
 echo "elasticsearch.url: http://"$THEIP":9200" | sudo tee -a /opt/kibana/config/kibana.yml
 sudo service kibana restart
 
-sudo ./usr/share/logstash/bin/logstash-plugin install logstash-filter-elasticsearch
+sudo /usr/share/logstash/bin/logstash-plugin install logstash-filter-elasticsearch
 sudo chmod -R 777 /usr/share/logstash/data
 
 

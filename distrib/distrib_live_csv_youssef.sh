@@ -34,6 +34,6 @@ fi
 
 /usr/share/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_csv_youssef.conf&
 
-sleep 300
+sleep 480
 
 watch -n 300 /usr/share/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_elastic_youssef.conf

@@ -2,7 +2,7 @@
 #petit script à lancer pour que cela tourne !
 #zf170808.1735
 
-export LS_HEAP_SIZE="80m"
+export LS_HEAP_SIZE="200m"
 export ELASTOC_SRV="$1:9200"
 export ELASTOC_IDX=$2
 
@@ -30,4 +30,4 @@ else
 	echo " pas de reset du template"
 fi
 
-/usr/share/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/wwp_all_csv_2.conf --allow-env
+/usr/share/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/wwp_all_csv_2.conf
