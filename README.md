@@ -4,17 +4,17 @@
 		Presentation:
 	</h1>
 	<p>
-		L'ensemble des programmes est base sur l'utilisation des 3 logiciels ELK (elasticsearch logstash et Kibana)
+		L'ensemble des programmes est base sur l'utilisation des 3 logiciels ELK (elasticsearch logstash et Kibana).
 		<br>
-		Ces trois logiciels travaillent ensemble pour le traitement de logs
+		Ces trois logiciels travaillent ensemble pour le traitement de logs.
 		<br>
-		Elastisearch est un logiciel d'indexation pour optimiser les recherches
+		Elastisearch est un logiciel d'indexation pour optimiser les recherches.
 		<br>
-		Logstash sert a analyser et formater les log via differents plugins
+		Logstash sert a analyser et formater les log via differents plugins.
 		<br>
-		Enfin Kibana est un logiciel d'affichage qui permet de visualiser les champs obtenus grace a differents types de graphes
+		Enfin Kibana est un logiciel d'affichage qui permet de visualiser les champs obtenus grace a differents types de graphes.
 		<br>
-		En input on a des logs qui sont traites par Logstash, une fois filtres ils sont envoyes vers Elasticsearch qui les indexe. Kibana sert ensuite d'interface  d'Elasticsearch.
+		En input on a des logs qui sont traites par Logstash, une fois filtres ils sont envoyes vers Elasticsearch qui les indexe. Kibana sert ensuite d'interface graphique pour visualiser les resultats obtenus par Elasticsearch.
 	</p>
 </section>
 <section>
