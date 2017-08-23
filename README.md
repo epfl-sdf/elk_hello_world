@@ -3,7 +3,7 @@
 	<h1>
 		Presentation:
 	</h1>
-	<p style="text-align:justify;">
+	<p align="justify">
 		L'ensemble des programmes est base sur l'utilisation des 3 logiciels ELK (elasticsearch logstash et Kibana).
 		<br>
 		Ces trois logiciels travaillent ensemble pour le traitement de logs.
@@ -21,7 +21,7 @@
 	<h1>
 		Installation:
 	</h1>
-	<p style="text-align:justify;">
+	<p align="justify">
 		L'installation des trois logiciels se fait simultanement en runnant simplement ./install.sh
 	</p>
 </section>
@@ -29,7 +29,7 @@
 	<h1>
 		Utilisation:
 	</h1>
-	<p style="text-align:justify;">
+	<p align="justify">
 		les fichiers *.conf contiennent logstash le code de traitement des logs	
 		<br>
 		les fichiers *_grok* utilisent le filtre grok dans logstash
@@ -53,7 +53,7 @@
 	<h1>
 		References:
 	</h1>
-	<p style="text-align:justify;">
+	<p align="justify">
 		<a href="https://blog.netapsys.fr/vos-logs-passent-la-seconde-avec-elk-elasticsearch-logstash-kibana/">
 			Presentation ELK
 		</a>
