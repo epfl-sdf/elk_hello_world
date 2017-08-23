@@ -36,7 +36,7 @@
 		<br>
 		les fichiers *_csv* utilisent le filtre csv dans logstash
 		<br>
-		les fichiers *_100* ou *_1000* sont des fichiers test sur des jeux de 100 logs seulement
+		les fichiers *_100* ou *_1000* sont des fichiers test sur des jeux de 100 ou 1000 logs seulement
 		<br>
 		les fichiers *_all* sont des fichiers tournant avec un jeu complet de log situe dans un dossier plus haut
 		<br>
