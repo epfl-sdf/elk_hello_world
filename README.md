@@ -1,7 +1,7 @@
 # elk_hello_world
 <section>
 	<h1>
-		Presentation
+		Presentation:
 	</h1>
 	<p>
 		L'ensemble des programmes est base sur l'utilisation des 3 logiciels ELK (elasticsearch logstash et Kibana)
@@ -17,37 +17,42 @@
 </section>
 <section>
 	<h1>
-		Installation
+		Installation:
 	</h1>
 	<p>
 		L'installation des trois logiciels se fait simultanement en runnant simplement ./install.sh
 	</p>
 </section>
-
-
-#<section>
-#	<p>	
-#		Petit Hello World pour commencer a faire joujou avec ELK
-#		<br>
-#		zf170809.1458,zf170809.1516
-#		<br>
-#		<br>
-#			<b>
-#			ATTENTION !
-#			</b>
-#		<br>
-#		Il faut modifier le nom du serveur Eleasticsearch de sortie dans *.conf et mettre VOTRE machine a  la place !
-#		<br>
-#		<br>
-#		Les fichiers *_100* sont pour un jeu de 100 lignes seulement de logs pour faire des tests de fonctionnement du stack ELK
-#�		<br>
-#		Les fichiers *_all* sont pour un jeu complet de lignes de logs qui se trouvent un dossier plus haut
-#		<br>
-#		Les fichier *csv* sont utilisés avec Logstash et le filtre csv
-#		<br>
-#		Les fichiers *grok* sont utilisés avec Logstash et le filtre GROK
-#		<br>
-#		Les fichier *.sh sont pour lancer les jeux de tests
-#		<br>
-#	</p>
-#</section>
+<section>
+	<h1>
+		Utilisation:
+	</h1>
+	<p>
+		les fichiers *.conf contiennent logstash le code de traitement des logs	
+		<br>
+		les fichiers *_grok* utilisent le filtre grok dans logstash
+		<br>
+		les fichiers *_csv* utilisent le filtre csv dans logstash
+		<br>
+		les fichiers *_100* ou *_1000* sont des fichiers test sur des jeux de 100 logs seulement
+		<br>
+		les fichiers *_all* sont des fichiers tournant avec un jeu complet de log situe dans un dossier plus haut
+		<br>
+		Les fichiers *.sh servent a lancer les jeux de test
+		<br>
+		les deux programmes de lancement wwp_all_csv_final.sh et wwp_all_grok_final.save20170817.sh necessitent
+		<br>
+		d'entrer l'adresse de l'hote et l'index. Un reset du template est possible en tapant reset. -help en cas de besoin.
+	</p>
+</section>
+<section>
+	<h1>
+		References:
+	</h1>
+	<p>
+		<a href="https://blog.netapsys.fr/vos-logs-passent-la-seconde-avec-elk-elasticsearch-logstash-kibana/">
+			Presentation ELK
+		</a>
+		<br>
+	</p>
+</section>
