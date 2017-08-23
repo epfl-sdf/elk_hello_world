@@ -13,6 +13,8 @@
 		Logstash sert a analyser et formater les log via differents plugins
 		<br>
 		Enfin Kibana est un logiciel d'affichage qui permet de visualiser les champs obtenus grace a differents types de graphes
+		<br>
+		En input on a des logs qui sont traites par Logstash, une fois filtres ils sont envoyes vers Elasticsearch qui les indexe. Kibana sert ensuite d'interface  d'Elasticsearch.
 	</p>
 </section>
 <section>
