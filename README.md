@@ -38,11 +38,15 @@
 		<br>
 		les fichiers *_all* sont des fichiers tournant avec un jeu complet de log situe dans un dossier plus haut
 		<br>
-		Les fichiers *.sh servent a lancer les jeux de test
+		les fichiers *.sh servent a lancer les jeux de test
 		<br>
 		les deux programmes de lancement wwp_all_csv_final.sh et wwp_all_grok_final.save20170817.sh necessitent
 		<br>
-		d'entrer l'adresse de l'hote et l'index. Un reset du template est possible en tapant reset. -help en cas de besoin.
+		d'entrer l'adresse de l'hote et l'index.
+		<br>
+		Un reset du template est possible en tapant reset.
+		<br>
+		-help en cas de besoin.
 	</p>
 </section>
 <section>
@@ -54,5 +58,20 @@
 			Presentation ELK
 		</a>
 		<br>
+		<a href="https://www.elastic.co/guide/en/kibana/5.5/index.html">
+			guide Kibana 5.5
+		</a>
+		<br>
+		<a href="https://www.elastic.co/guide/en/logstash/current/plugins-filters-grok.html">
+			filtre grok de Logstash
+		</a>
+		<br>
+		<a href="https://www.elastic.co/guide/en/logstash/current/plugins-filters-csv.html">
+			filtre csv de Logstash
+		</a>
+		<br>
+		<a href="https://www.elastic.co/guide/en/logstash/current/plugins-filters-mutate.html">
+			filtre mutate de Logstash
+		</a>
 	</p>
 </section>
