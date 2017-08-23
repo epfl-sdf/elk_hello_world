@@ -1,0 +1,36 @@
+{
+  "title": "New Visualization",
+  "type": "histogram",
+  "params": {
+    "addLegend": true,
+    "addTimeMarker": false,
+    "addTooltip": true,
+    "defaultYExtents": false,
+    "mode": "stacked",
+    "scale": "linear",
+    "setYExtents": false,
+    "shareYAxis": true,
+    "times": [],
+    "yAxis": {}
+  },
+  "aggs": [
+    {
+      "id": "1",
+      "type": "count",
+      "schema": "metric",
+      "params": {}
+    },
+    {
+      "id": "2",
+      "type": "terms",
+      "schema": "segment",
+      "params": {
+        "field": "zstatus",
+        "size": 0,
+        "order": "desc",
+        "orderBy": "1"
+      }
+    }
+  ],
+  "listeners": {}
+}
