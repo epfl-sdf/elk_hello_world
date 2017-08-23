@@ -18,7 +18,7 @@
 <section>
 	<h1>
 		Installation
-	<h1>
+	</h1>
 	<p>
 		L'installation des trois logiciels se fait simultanement en runnant simplement ./install.sh
 	</p>
