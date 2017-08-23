@@ -6,7 +6,7 @@
 	<p>
 		L'ensemble des programmes est base sur l'utilisation des 3 logiciels ELK (elasticsearch logstash et Kibana)
 		<br>
-		Ces trois logiciels travaillent ensemble pour le traitements de logs
+		Ces trois logiciels travaillent ensemble pour le traitement de logs
 		<br>
 		Elastisearch est un logiciel d'indexation pour optimiser les recherches
 		<br>
