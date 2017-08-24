@@ -1,7 +1,7 @@
 # elk_hello_world
 <section>
 	<h1>
-		Presentation:
+		Presentation
 	</h1>
 	<p align="justify">
 		L'ensemble des programmes est base sur l'utilisation des 3 logiciels ELK (elasticsearch logstash et Kibana).
@@ -19,7 +19,7 @@
 </section>
 <section>
 	<h1>
-		Installation:
+		Installation
 	</h1>
 	<p align="justify">
 		L'installation des trois logiciels se fait simultanement en runnant simplement ./install.sh
@@ -27,7 +27,7 @@
 </section>
 <section>
 	<h1>
-		Utilisation:
+		Utilisation
 	</h1>
 	<p align="justify">
 		les fichiers *.conf contiennent logstash le code de traitement des logs	
@@ -51,7 +51,7 @@
 </section>
 <section>
 	<h1>
-		References:
+		References
 	</h1>
 	<p align="justify">
 		<a href="https://blog.netapsys.fr/vos-logs-passent-la-seconde-avec-elk-elasticsearch-logstash-kibana/">
