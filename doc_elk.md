@@ -8,6 +8,11 @@ Ce trio de logiciels nous permet de récupérer des logs, de les traiter et de l
 Elasticsearch est une base de donnée dans laquelle nous allons envoyer tout nos logs traités au préalable par Logstash. C'est cette base de données qui va nous permettre de stocker efficacement les logs afin de les afficher et les trier plus finement dans Kibana.
 </p>
 
+La doc complète est disponible à l'adresse suivante
+```
+https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+```
+
 # Logstash
 
 <p align="justify">
