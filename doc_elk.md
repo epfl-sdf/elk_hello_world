@@ -9,9 +9,7 @@ Elasticsearch est une base de donnée dans laquelle nous allons envoyer tout nos
 </p>
 
 La doc complète est disponible à l'adresse suivante
-```
-https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html - automatic!
-```
+https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
 
 # Logstash
 
@@ -30,9 +28,7 @@ Pour nos besoin de traitement des logs wwp, distrib ainsi que htmlpages, nous av
   * Permet d'intéragir avec la base de données Elasticsearch.
 
 La doc complète est disponible à l'adresse suivante
-```
 https://www.elastic.co/guide/en/logstash/current/index.html
-```
 
 # Kibana
 
