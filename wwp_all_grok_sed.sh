@@ -11,7 +11,7 @@ if [ -z "$1" ] ; then
 else
 	echo "changement de l'hote"
 	
-	sed -i "s#hosts => 'http://.*#hosts => 'http://$1:9200'#" wwp_all_grok_final.conf
+	sed -i "s#hosts => 'http://.*#hosts => 'http://$1:9200'#" wwp_all_grok_sedi.conf
 	curl -XDELETE http://$1:9200/wwp_log_20170817
 	
 fi
@@ -25,4 +25,4 @@ else
 	echo "pas de reset du template"
 fi
 
-/opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/wwp_all_grok_final.conf
+/opt/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/wwp_all_grok_sedi.conf

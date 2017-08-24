@@ -1,5 +1,5 @@
 {
-  "template" : "wwp_log_20170817*",
+  "template" : "champs_unanalyzed_wwp*",
   "version" : 1,
   "settings" : {
     "index.refresh_interval" : "5s"
