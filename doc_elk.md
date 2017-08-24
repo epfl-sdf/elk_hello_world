@@ -69,9 +69,21 @@ mêmes noms de packets que sur les dépôts Ubuntu.
 De plus, cet outil utilise des utilitaires communs sur les systèmes
 Linux mais qui peuvent ne pas être installés sur tous les ordinateurs.
 Ces outils sont:
-* `wget`
-* `curl`
+* wget
+* curl
 
-## Graphiques
+## Lancement des différents scripts
 
+Afin de lancer les .conf de manière plus propre il existe un script
+```
+wwp_all_csv_final.sh
+```
 
+Il suffit de préciser, en argument:
+1. Le serveur hôte qui va recevoir les données traitées et pouvoir les afficher sur Kibana
+1. L'index du fichier
+1. Si on veut reseter le template
+
+```
+Il faut ce baser sur ce script pour pouvoir en faire un correspondant au projet voulu. Cependant, depuis Kibana 5.5 il n'est plus nécessaire de changer de template ou encore d'activer les variables d'environnement avec --allow-env.
+```
