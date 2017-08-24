@@ -18,8 +18,10 @@ Logstash est un environnement qui nous permet de récupérer les logs et d'en fa
  
 Pour nos besoin de traitement des logs wwp, distrib ainsi que htmlpages, nous avons utilisé les plugins suivant.
 
-* Grok, CSV
-  * Permettent tout les deux de filtrer et découper les logs en entrée afin de les stocker dans des champs.
+* CSV
+  * Permet de filtrer et découper les logs donnés en Input afin de les stocker dans des champs. Facile à implémenter lorsque les logs sont bien organisés en "tableau".
+* Grok
+  * Permet de filtrer et découper les logs donnés en Input afin de les stocker dans des champs. Ce filtre est plus adapté dans le cas où les données en Input ne sont pas bien ordonnées.
 * Ruby
   * Permet d'implémenter du code Ruby.
 * Mutate
@@ -42,6 +44,10 @@ Parmi ces différents paramètres d'affichage, on a utiliser les divers graphiqu
 
 La doc complète est disponible à l'adresse suivante <br>
 https://www.elastic.co/guide/en/kibana/5.5/index.html
+
+## Création de graphes "Vizualise"
+
+
 
 # Utilisation
 
