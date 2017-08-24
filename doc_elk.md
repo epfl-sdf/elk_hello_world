@@ -10,7 +10,7 @@ Elasticsearch est une base de donnée dans laquelle nous allons envoyer tout nos
 
 La doc complète est disponible à l'adresse suivante
 ```
-https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html - automatic!
 ```
 
 # Logstash
