@@ -52,15 +52,15 @@ Afin de créer la visualization voulue pour représenter nos données, il suffit
 1. Se rendre sur le serveur, via le port dédié à Kibana, qui contient les données à afficher
  ``` https://10.92.104.xxx:5601 ```
 1. Créer un index avec les données envoyées sur Elasticsearch
- 1. Se rendre dans le menu Kibana sous "Management >> Index Patterns"
- 1. Dans cet onglet, créer un nouvel index en appuyant sur "Create Index Pattern" en haut à gauche.
- 1. Entrer le nom de l'index que vous avez utilisez pour créer le jeu de données à afficher.
+  1. Se rendre dans le menu Kibana sous "Management >> Index Patterns"
+  1. Dans cet onglet, créer un nouvel index en appuyant sur "Create Index Pattern" en haut à gauche.
+  1. Entrer le nom de l'index que vous avez utilisez pour créer le jeu de données à afficher.
 1. Créer une nouvelle visualization
- 1. Se rendre dans le menu Kibana sous "Visualize"
- 1. Si la liste des "Visualize" déjà créée ne s'affiche pas, cliquer sur "visualize" à droite du logo Kibana
- 1. A droite de la barre de recherche des différentes "visualize" cliquer sur la boxe "+"
- 1. Choisisser ensuite le type de graphe que vous voulez créer puis l'index du jeu de données voulu
- 1. Une fois tout ceci fait vous pouvez choisir, dans le menu dédié au graphe choisi, les options voulues (les données sur les axes, si vous voulez subdiviser le graphe, filtrer etc ...)
+  1. Se rendre dans le menu Kibana sous "Visualize"
+  1. Si la liste des "Visualize" déjà créée ne s'affiche pas, cliquer sur "visualize" à droite du logo Kibana
+  1. A droite de la barre de recherche des différentes "visualize" cliquer sur la boxe "+"
+  1. Choisisser ensuite le type de graphe que vous voulez créer puis l'index du jeu de données voulu
+  1. Une fois tout ceci fait vous pouvez choisir, dans le menu dédié au graphe choisi, les options voulues (les données sur les axes, si vous voulez subdiviser le graphe, filtrer etc ...)
 
 # Utilisation
 
