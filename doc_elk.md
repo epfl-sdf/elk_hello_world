@@ -50,7 +50,7 @@ https://www.elastic.co/guide/en/kibana/5.5/index.html
 Afin de créer la visualization voulue pour représenter nos données, il suffit de suivre les étapes suivantes
 
 * Se rendre sur le serveur, via le port dédié à Kibana, qui contient les données à afficher
- ``` https://10.92.104.xxx:5601 ```
+ ``` https://10.92.104.xxx:5601 ``` (où xxx correspond à la machine hôte sur lesquelles les données ont été envoyées)
 * Créer un index avec les données envoyées sur Elasticsearch
   * Se rendre dans le menu Kibana sous "Management >> Index Patterns"
   * Dans cet onglet, créer un nouvel index en appuyant sur "Create Index Pattern" en haut à gauche.
@@ -63,6 +63,14 @@ Afin de créer la visualization voulue pour représenter nos données, il suffit
   * Une fois tout ceci fait vous pouvez choisir, dans le menu dédié au graphe choisi, les options voulues (les données sur les axes, si vous voulez subdiviser le graphe, filtrer etc ...)
 
 # Utilisation
+
+## ELK
+
+Contrairement à ce que laisse penser la dénomination de ces trois services, ELK doit s'utiliser dans l'ordre suivant
+
+1. Logstash - Pour pouvoir récupérer les logs et les trier.
+1. Elasticsearch - Pour pouvoir stocker les logs dans une base de données.
+1. Kibana - Pour pouvoir afficher les logs de manière élégante et travailler dessus.
 
 ## Récupération du dépôt
 On récupère le dépôt avec:
