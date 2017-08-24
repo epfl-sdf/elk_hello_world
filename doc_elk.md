@@ -32,6 +32,8 @@ Pour nos besoin de traitement des logs wwp, distrib ainsi que htmlpages, nous av
 La doc complète est disponible à l'adresse suivante <br>
 https://www.elastic.co/guide/en/logstash/current/index.html
 
+Tout les scripts sont fait dans des fichiers .conf et peuvent être executés de manière propre à l'aide du script `start_single_script.sh` en lui donnant les bons arguments. Son fonctionnement est expliqué plus en détails plus bas, sous Utilisation >> lancement des différents scripts.
+
 # Kibana
 
 <p align="justify">
@@ -47,7 +49,7 @@ https://www.elastic.co/guide/en/kibana/5.5/index.html
 
 ## Création de graphes "Visualize"
 
-Afin de créer la visualization voulue pour représenter nos données, il suffit de suivre les étapes suivantes
+Afin de créer la visualisation voulue pour représenter nos données, il suffit de suivre les étapes suivantes
 
 * <b>Pour se connecter au bon serveur Kibana</b>
   * Se rendre sur le serveur, via le port dédié à Kibana, qui contient les données à afficher
@@ -104,9 +106,9 @@ Ces outils sont:
 
 ## Lancement des différents scripts
 
-Afin de lancer les .conf de manière plus propre il existe un script
+Afin de lancer les .conf de manière plus propre il suffit d'exécuter la commande suivante
 ```
-start_single_script.sh
+./start_single_script.sh
 ```
 
 Il suffit de préciser, en argument:
