@@ -8,7 +8,7 @@ Ce trio de logiciels nous permet de récupérer des logs, de les traiter et de l
 Elasticsearch est une base de donnée dans laquelle nous allons envoyer tout nos logs traités au préalable par Logstash. C'est cette base de données qui va nous permettre de stocker efficacement les logs afin de les afficher et les trier plus finement dans Kibana.
 </p>
 
-La doc complète est disponible à l'adresse suivante
+La doc complète est disponible à l'adresse suivante <br>
 https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
 
 # Logstash
@@ -27,21 +27,28 @@ Pour nos besoin de traitement des logs wwp, distrib ainsi que htmlpages, nous av
 * Elasticsearch
   * Permet d'intéragir avec la base de données Elasticsearch.
 
-La doc complète est disponible à l'adresse suivante
+La doc complète est disponible à l'adresse suivante <br>
 https://www.elastic.co/guide/en/logstash/current/index.html
 
 # Kibana
 
 <p align="justify">
-Kibana est un logiciel d'interface graphique servant à afficher les résultats de traitement des logs précédemment effectué par Elasticsearch. Le but de ce logiciel est de pouvoir visualiser les différents champs d'interêts: nom_erreur, code_erreur et site. Avec ces graphiques on peut établir des correlations entre ces différents champs. Kibana facilite aussi énormément le tri par champ par l'utilisation de divers filtres. 
+Kibana est un logiciel d'interface graphique servant à afficher les résultats de traitement des logs précédemment stocké dans Elasticsearch. Le but de ce logiciel est de pouvoir visualiser les différents champs d'interêts: nom_erreur, code_erreur et site, par exemple. Avec ces graphiques on peut établir des correlations entre les différents champs. Kibana facilite aussi énormément le tri des champs par l'utilisation de divers filtres. 
 </p>
+
+<p align="justify">
+Parmi ces différents paramètres d'affichage, on a utiliser les divers graphiques tels que barres, disques, histogrammes etc ... Ces moyens d'affichage combiner au filtre adéquois permet de pouvoir afficher ces données de manière optimale et de pouvoir tracker les erreurs voulues.
+</p>
+
+La doc complète est disponible à l'adresse suivante <br>
+https://www.elastic.co/guide/en/kibana/5.5/index.html
 
 # Utilisation
 
 ## Récupération du dépôt
 On récupère le dépôt avec:
 ```
-git@github.com:epfl-sdf/elk_hello_world.git
+git clone git@github.com:epfl-sdf/elk_hello_world.git
 ```
 
 (cette commande nécessite la présence de `git` sur l'ordinateur)
