@@ -86,6 +86,6 @@ Il suffit de préciser, en argument:
 
 Une aide est disponible en entrant, comme seul argument, "-help".
 
-`<p align="justify">
-Il faut ce baser sur ce script pour pouvoir en faire un correspondant au projet voulu. Cependant, depuis Kibana 5.5 il n'est plus nécessaire de changer de template ou encore d'activer les variables d'environnement avec --allow-env.
-</p>`
+<p align="justify">
+``Il faut ce baser sur ce script pour pouvoir en faire un correspondant au projet voulu. Cependant, depuis Kibana 5.5 il n'est plus nécessaire de changer de template ou encore d'activer les variables d'environnement avec --allow-env.``
+</p>
