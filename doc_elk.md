@@ -49,18 +49,21 @@ https://www.elastic.co/guide/en/kibana/5.5/index.html
 
 Afin de créer la visualization voulue pour représenter nos données, il suffit de suivre les étapes suivantes
 
-* Se rendre sur le serveur, via le port dédié à Kibana, qui contient les données à afficher
- ``` https://10.92.104.xxx:5601 ``` (où xxx correspond à la machine hôte sur lesquelles les données ont été envoyées)
-* Créer un index avec les données envoyées sur Elasticsearch
+* <b>Pour se connecter au bon serveur Kibana</b>
+  * Se rendre sur le serveur, via le port dédié à Kibana, qui contient les données à afficher
+ ``` 10.92.104.xxx:5601 ``` (où xxx correspond à la machine hôte sur lesquelles les données ont été envoyées)
+* <b>Pour créer un index avec les données envoyées sur Elasticsearch</b>
   * Se rendre dans le menu Kibana sous "Management >> Index Patterns"
   * Dans cet onglet, créer un nouvel index en appuyant sur "Create Index Pattern" en haut à gauche.
-  * Entrer le nom de l'index que vous avez utilisez pour créer le jeu de données à afficher.
-* Créer une nouvelle visualization
-  * Se rendre dans le menu Kibana sous "Visualize"
-  * Si la liste des "Visualize" déjà créée ne s'affiche pas, cliquer sur "visualize" à droite du logo Kibana
+  * Entrer le nom de l'index que vous avez utilisez pour stocker les données sous Elasticsearch.
+  * Cliquer sur le bouton "Create" afin de générer le jeu de données.
+* <b>Pour créer une nouvelle visualization</b>
+  * Se rendre dans le menu Kibana sous "Visualize".
+  * Si la liste des "Visualize" déjà créée ne s'affiche pas, cliquer sur "visualize" à droite du logo Kibana.
   * A droite de la barre de recherche des différentes "visualize" cliquer sur la boxe "+"
-  * Choisisser ensuite le type de graphe que vous voulez créer puis l'index du jeu de données voulu
+  * Choisisser ensuite le type de graphe que vous voulez créer puis l'index du jeu de données voulu.
   * Une fois tout ceci fait vous pouvez choisir, dans le menu dédié au graphe choisi, les options voulues (les données sur les axes, si vous voulez subdiviser le graphe, filtrer etc ...)
+  * Si rien n'apparat au bout du premier "refresh" du graphe c'est que la période de temps choisie (en haut à droite) ne contient sûrement pas de données ou alors que les filtres/champs choisis sont trop restrictifs.
 
 # Utilisation
 
