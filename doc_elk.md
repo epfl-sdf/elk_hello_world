@@ -84,6 +84,8 @@ Il suffit de préciser, en argument:
 1. L'index du fichier
 1. Si on veut reseter le template
 
-```
+Une aide est disponible en entrant, comme seul argument, "-help".
+
+`
 Il faut ce baser sur ce script pour pouvoir en faire un correspondant au projet voulu. Cependant, depuis Kibana 5.5 il n'est plus nécessaire de changer de template ou encore d'activer les variables d'environnement avec --allow-env.
-```
+`
