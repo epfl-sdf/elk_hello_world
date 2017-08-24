@@ -4,7 +4,7 @@
 
 
 
-export LS_HEAP_SIZE="80m"
+#export LS_HEAP_SIZE="200m"
 export ELASTOC_SRV="$1:9200"
 export ELASTOC_IDX=$2
 
@@ -34,6 +34,13 @@ fi
 
 /usr/share/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_csv_youssef.conf&
 
-sleep 480
+sleep 60
 
-watch -n 300 /usr/share/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_elastic_youssef.conf
+r = "no"
+
+while [r != "e"]
+ do
+  read -p "Press e to continue with elasticsearch... " -n 1 -s
+ done
+
+watch -n 300 /usr/share/logstash/bin/logstash -f /home/ubuntu/elk_hello_world/distrib/distrib_live_elastic_youssef.conf --path.data /home/ubuntu/elk_hello_world/distrib/data
