@@ -11,11 +11,12 @@ Elasticsearch est une base de donnée dans laquelle nous allons envoyer tout nos
 # Logstash
 
 <p align="justify">
-Logstash est un environnement qui nous permet de récupérer les logs et d'en faire un premier traitement grâce à ces nombreux pluggins afin de les envoyer ensuite dans elasticsearch. Pour nos besoin de traitement des logs wwp, distrib ainsi que htmlpages, nous avons utilisé les pluggins suivant.
-</p>
+Logstash est un environnement qui nous permet de récupérer les logs et d'en faire un premier traitement grâce à ces nombreux plugins afin de les envoyer ensuite dans elasticsearch. Comme vous le verrez dans les fichier .conf, ils sont découpés en trois parties; Input, Filter, Output.</p>
+ 
+Pour nos besoin de traitement des logs wwp, distrib ainsi que htmlpages, nous avons utilisé les plugins suivant.
 
 * Grok, CSV
-  * Permettent tout les deux de filtrer les logs pour leur appliquer des champs.
+  * Permettent tout les deux de filtrer et découper les logs en entrée afin de les stocker dans des champs.
 * Ruby
   * Permet d'implémenter du code Ruby.
 * Mutate
@@ -23,6 +24,10 @@ Logstash est un environnement qui nous permet de récupérer les logs et d'en fa
 * Elasticsearch
   * Permet d'intéragir avec la base de données Elasticsearch.
 
+La doc complète est disponible à l'adresse suivante
+```
+https://www.elastic.co/guide/en/logstash/current/index.html
+```
 
 # Kibana
 
