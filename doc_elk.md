@@ -47,7 +47,10 @@ https://www.elastic.co/guide/en/kibana/5.5/index.html
 
 ## Création de graphes "Vizualise"
 
+Afin de créer la vizualisation voulue pour représenter nos données, il suffit de suivre les étapes suivantes
 
+1. 
+1. Créer un index avec les données envoyées sur Elasticsearch
 
 # Utilisation
 
@@ -82,7 +85,7 @@ Ces outils sont:
 
 Afin de lancer les .conf de manière plus propre il existe un script
 ```
-wwp_all_csv_final.sh
+start_single_script.sh
 ```
 
 Il suffit de préciser, en argument:
