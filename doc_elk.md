@@ -4,10 +4,24 @@ Ce trio de logiciels nous permet de récupérer des logs, de les traiter et de l
 
 # Elasticsearch
 
+<p align="justify">
 Elasticsearch est une base de donnée dans laquelle nous allons envoyer tout nos logs traités au préalable par Logstash. C'est cette base de données qui va nous permettre de stocker efficacement les logs afin de les afficher et les trier plus finement dans Kibana.
+</p>
 
 # Logstash
 
+<p align="justify">
+Logstash est un environnement qui nous permet de récupérer les logs et d'en faire un premier traitement grâce à ces nombreux pluggins afin de les envoyer ensuite dans elasticsearch. Pour nos besoin de traitement des logs wwp, distrib ainsi que htmlpages, nous avons utilisé les pluggins suivant.
+</p>
+
+* Grok, CSV
+  * Permettent tout les deux de filtrer les logs pour leur appliquer des champs.
+* Ruby
+  * Permet d'implémenter du code Ruby.
+* Mutate
+  * Permet de modifier les différents champs.
+* Elasticsearch
+  * Permet d'intéragir avec la base de données Elasticsearch.
 
 
 # Kibana
