@@ -66,6 +66,9 @@ Afin de créer la visualisation voulue pour représenter nos données, il suffit
   * Choisisser ensuite le type de graphe que vous voulez créer puis l'index du jeu de données voulu.
   * Une fois tout ceci fait vous pouvez choisir, dans le menu dédié au graphe choisi, les options voulues (les données sur les axes, si vous voulez subdiviser le graphe, filtrer etc ...)
   * Si rien n'apparat au bout du premier "refresh" du graphe c'est que la période de temps choisie (en haut à droite) ne contient sûrement pas de données ou alors que les filtres/champs choisis sont trop restrictifs.
+  
+Tuto youtube afin d'avoir une introduction à kibana<br>
+https://www.youtube.com/watch?v=mMhnGjp8oOI
 
 # Utilisation
 
