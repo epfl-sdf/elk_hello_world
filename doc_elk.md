@@ -49,13 +49,13 @@ https://www.elastic.co/guide/en/kibana/5.5/index.html
 
 Afin de créer la visualization voulue pour représenter nos données, il suffit de suivre les étapes suivantes
 
-1. Se rendre sur le serveur, via le port dédié à Kibana, qui contient les données à afficher
+* Se rendre sur le serveur, via le port dédié à Kibana, qui contient les données à afficher
  ``` https://10.92.104.xxx:5601 ```
-1. Créer un index avec les données envoyées sur Elasticsearch
+* Créer un index avec les données envoyées sur Elasticsearch
   * Se rendre dans le menu Kibana sous "Management >> Index Patterns"
   * Dans cet onglet, créer un nouvel index en appuyant sur "Create Index Pattern" en haut à gauche.
   * Entrer le nom de l'index que vous avez utilisez pour créer le jeu de données à afficher.
-1. Créer une nouvelle visualization
+* Créer une nouvelle visualization
   * Se rendre dans le menu Kibana sous "Visualize"
   * Si la liste des "Visualize" déjà créée ne s'affiche pas, cliquer sur "visualize" à droite du logo Kibana
   * A droite de la barre de recherche des différentes "visualize" cliquer sur la boxe "+"
