@@ -33,10 +33,6 @@ Ces outils sont:
 * `wget`
 * `curl`
 
-## Logs traîtés
-```
-2017-07-25 11:37:35,208 - root - ERROR - fsb - WP export - media failed: 400 Bad Request : [rest_upload_no_data] No data supplied.
-```
-```
-2017-07-25 15:00:53,312 - root - ERROR - Could not created page
-```
+## Graphiques
+
+
