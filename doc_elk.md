@@ -41,7 +41,7 @@ Kibana est un logiciel d'interface graphique servant à afficher les résultats 
 </p>
 
 <p align="justify">
-Parmi ces différents paramètres d'affichage, on a utiliser les divers graphiques tels que barres, disques, histogrammes etc ... Ces moyens d'affichage combiner au filtre adéquois permet de pouvoir afficher ces données de manière optimale et de pouvoir tracker les erreurs voulues.
+Parmi ces différents paramètres d'affichage, on a utiliser les divers graphiques tels que barres, disques, histogrammes etc ... Ces moyens d'affichage combiner au filtre adéquat permet de pouvoir afficher ces données de manière optimale et de pouvoir tracker les erreurs voulues.
 </p>
 
 La doc complète est disponible à l'adresse suivante <br>
