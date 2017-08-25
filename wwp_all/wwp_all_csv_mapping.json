@@ -1,0 +1,52 @@
+{
+  "template" : "wwpcsv1",
+  "version" : 1,
+  "settings" : {
+    "index.refresh_interval" : "5s"
+  },
+  "mappings" : {
+    "_default_" : {
+      "properties" : {
+        "@timestamp" : {
+          "type" : "date",
+          "format" : "strict_date_optional_time||epoch_millis"
+        },
+        "@version" : {
+          "type" : "string"
+        },
+        "code_erreur_analyzed" : {
+        "type" : "string"
+        },
+        "code_erreur_unanalyzed" : {
+          "type" : "string",
+          "index" : "not_analyzed"
+        },
+        "host" : {
+          "type" : "string"
+        },
+        "message" : {
+          "type" : "string"
+        },
+         "nom_erreur_unanalyzed" : {
+          "type" : "string",
+          "index" : "not_analyzed"
+        },
+         "nom_erreur_analyzed" : {
+          "type" : "string"
+        },
+        "path" : {
+           "type" : "string"
+        },
+        "reste" : {
+          "type" : "string"
+        },
+        "site" : {
+          "type" : "string"
+        },
+        "zdate" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}
