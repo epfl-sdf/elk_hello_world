@@ -4,7 +4,7 @@
 		Presentation
 	</h1>
 	<p align="justify">
-		L'ensemble des programmes est base sur l'utilisation des 3 logiciels ELK (elasticsearch logstash et Kibana).
+		L'ensemble des programmes est basé sur l'utilisation des 3 logiciels ELK (elasticsearch logstash et Kibana).
 		<br>
 		Ces trois logiciels travaillent ensemble pour le traitement de logs.
 		<br>
@@ -12,9 +12,9 @@
 		<br>
 		Logstash sert a analyser et formater les log via differents plugins.
 		<br>
-		Enfin Kibana est un logiciel d'affichage qui permet de visualiser les champs obtenus grace a differents types de graphes.
+		Enfin Kibana est un logiciel d'affichage qui permet de visualiser les champs obtenus grâce à différents types de graphes.
 		<br>
-		En input on a des logs qui sont traites par Logstash, une fois filtres ils sont envoyes vers Elasticsearch qui les indexe. Kibana sert ensuite d'interface graphique pour visualiser les resultats obtenus par Elasticsearch.
+		En input on a des logs qui sont traités par Logstash, une fois filtrés ils sont envoyés vers Elasticsearch qui les indexe. Kibana sert ensuite d'interface graphique pour visualiser les résultats obtenus par Elasticsearch.
 	</p>
 </section>
 <section>
@@ -42,7 +42,7 @@
 		<br>
 		les fichiers *.sh servent a lancer les jeux de test
 		<br>
-		les deux programmes de lancement wwp_all_csv_final.sh et wwp_all_grok_final.save20170817.sh necessitent d'entrer l'adresse de l'hote et l'index.
+		les deux programmes de lancement wwp_all_csv_final.sh et wwp_all_grok_final.save20170817.sh nécessitent d'entrer l'adresse de l'hôte et l'index.
 		<br>
 		un reset du template est possible en tapant reset.
 		<br>
