@@ -117,7 +117,8 @@ Afin de lancer les .conf de manière plus propre il suffit d'exécuter la comman
 Il suffit de préciser, en argument:
 1. Le serveur hôte qui va recevoir les données traitées et pouvoir les afficher sur Kibana
 1. L'index du fichier
-1. Si on veut reseter le template
+1. Le fichier .conf à lancer
+1. Possibilité de désactiver des commentaires si on veut reseter le template, mais ce n'est plus nécessaire de reseter le template dans la dernière version de Kibana.
 
 Une aide est disponible en entrant, comme seul argument, "-help".
 
