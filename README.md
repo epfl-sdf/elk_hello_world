@@ -1,33 +1,3 @@
-- [elk_hello_world](#elk-hello-world)
-- [toto](#toto)
-  * [tutu](#tutu)
-    + [titi](#titi)
-  * [tata](#tata)
-- [ruru](#ruru)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
-
-
-
-
-
-
-# elk_hello_world
-
-# toto
-
-## tutu
-
-### titi
-
-## tata
-
-# ruru
-
-
 
 
 <section>
