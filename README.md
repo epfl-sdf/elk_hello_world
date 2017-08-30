@@ -1,3 +1,6 @@
+* auto-gen TOC:
+{:toc}
+
 # elk_hello_world
 <section>
 	<h1>
