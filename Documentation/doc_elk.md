@@ -61,7 +61,7 @@ Parmi ces différents paramètres d'affichage, on a utiliser les divers graphiqu
 La doc complète est disponible à l'adresse suivante <br>
 https://www.elastic.co/guide/en/kibana/5.5/index.html
 
-## Création de graphes Visualize
+## Création de graphes "Visualize"
 
 Afin de créer la visualisation voulue pour représenter nos données, il suffit de suivre les étapes suivantes
 
