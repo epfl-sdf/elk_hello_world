@@ -1,19 +1,22 @@
 # Table des matières
 
-- [Contenu du dossier DNS](#contenu-du-dossier-dns)
-- [Nomenclature des fichiers](#nomenclature-des-fichiers)
-  * [Fichiers de bases](#fichiers-de-bases)
-  * [Fichiers plus particuliers](#fichiers-plus-particuliers)
+- [Présentation](#présentation)
+  * [Contenu du dossier DNS](#contenu-du-dossier-dns)
+  * [Nomenclature des fichiers](#nomenclature-des-fichiers)
+    + [Fichiers de bases](#fichiers-de-bases)
+    + [Fichiers plus particuliers](#fichiers-plus-particuliers)
+    
+# Présentation
 
-# Contenu du dossier DNS
+## Contenu du dossier DNS
 
 Ce dossier contient les différents fichiers utiles au test de ELK sur des logs en "format" DNS
 
-# Nomenclature des fichiers
+## Nomenclature des fichiers
 
 Les différents fichiers suivent les règles de nommages suivantes
 
-## Fichiers de bases
+### Fichiers de bases
 
 * On indique le nom du projet en premier, ici
 ```
@@ -40,6 +43,6 @@ DNS_*
 *.conf    *.log     *.sh
 ```
 
-## Fichiers plus particuliers
+### Fichiers plus particuliers
 
 Nous avons dû faire un fichier contenant nos patterns personnels, en lieu et place du nombre de lignes, nous avons indiqué la nature du fichier, ici "patterns"
