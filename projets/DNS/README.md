@@ -2,9 +2,9 @@
 
 - [Présentation](#présentation)
   * [Contenu du dossier DNS](#contenu-du-dossier-dns)
-  * [Nomenclature des fichiers](#nomenclature-des-fichiers)
-    + [Fichiers de bases](#fichiers-de-bases)
-    + [Fichiers plus particuliers](#fichiers-plus-particuliers)
+  * [Fichiers](#fichiers)
+    + [Préfixes](#préfixes)
+    + [Suffixes](#suffixes)
     
 # Présentation
 
