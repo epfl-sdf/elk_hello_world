@@ -8,14 +8,14 @@
     + [Création de graphes "Visualize"](#création-de-graphes-visualize)
 - [Installation](#installation)
 - [Utilisation](#utilisation)
-  * [ELK](#elk)
+  * [ELK - Elasticsearch, Logstash, Kibana](#elk---elasticsearch-logstash-kibana-1)
   * [Récupération du dépôt](#récupération-du-dépôt)
   * [Lancement des différents scripts](#lancement-des-différents-scripts)
 - [Différents dossiers présents](#différents-dossiers-présents)
   * [data](#data)
   * [oldies](#oldies)
   * [projets](#projets)
-- [Sources - Références](#sources---références)
+- [Références - Sources](#références---sources)
 
 # Présentation
 ## ELK - Elasticsearch, Logstash, Kibana
@@ -108,7 +108,7 @@ Ces outils sont:
 
 # Utilisation
 
-## ELK
+## ELK - Elasticsearch, Logstash, Kibana
 
 Contrairement à ce que laisse penser la dénomination de ces trois services, ELK doit s'utiliser dans l'ordre suivant
 
@@ -165,7 +165,7 @@ Ce dossier contient les vestiges de la première installation de ELK.
 ## projets
 Ce dossier contient les différents projets qui ont été menés pour prendre en main ELK.
 
-# Sources - Références
+# Références - Sources
 
 * Présentation ELK
 https://blog.netapsys.fr/vos-logs-passent-la-seconde-avec-elk-elasticsearch-logstash-kibana/
