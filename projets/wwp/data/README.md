@@ -32,7 +32,7 @@ wwp_*
 
 * Si on a un fichier un peu particulier, on l'indique juste avant le suffixe. Ici on a effectué un près-traitement sur le fichier contenant les 100 premiers logs affin de garder uniquement les lignes contenant le mot "error"
 ```
-*error.*
+*error*
 ```
 
 ### Suffixe
