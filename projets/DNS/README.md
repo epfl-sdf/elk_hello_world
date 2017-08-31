@@ -12,11 +12,11 @@
 
 Ce dossier contient les différents fichiers utiles au test de ELK sur des logs en "format" DNS
 
-## Nomenclature des fichiers
+## Fichiers
 
 Les différents fichiers suivent les règles de nommages suivantes
 
-### Fichiers de bases
+### Préfixes
 
 * On indique le nom du projet en premier, ici
 ```
@@ -38,11 +38,10 @@ DNS_*
 *<version>.*
 ```
 
-* Vient ensuite le suffixe qui indique le type du fichier, .log, .conf ou encore .sh
-```
-*.conf    *.log     *.sh
-```
+* si c'est un fichier plus particulier, par exemple nous avons dû faire un fichier contenant nos patterns personnels, en lieu et place du nombre de lignes, nous avons indiqué la nature du fichier, ici "patterns"
 
-### Fichiers plus particuliers
-
-Nous avons dû faire un fichier contenant nos patterns personnels, en lieu et place du nombre de lignes, nous avons indiqué la nature du fichier, ici "patterns"
+### Suffixes
+* Vient ensuite le suffixe qui indique le type du fichier, .conf ou encore .sh
+```
+*.conf     *.sh
+```
