@@ -12,8 +12,9 @@
   * [Récupération du dépôt](#récupération-du-dépôt)
   * [Lancement des différents scripts](#lancement-des-différents-scripts)
 - [Différents dossiers présents](#différents-dossiers-présents)
-  * [oldies](#oldies)
   * [data](#data)
+  * [oldies](#oldies)
+  * [projets](#projets)
 - [Sources - Références](#sources---références)
 
 # Présentation
@@ -155,11 +156,14 @@ En input on a des logs qui sont traités par Logstash, une fois filtrés ils son
 
 # Différents dossiers présents
 
+## data
+Ce dossier contient toutes les données nécessaires au bon fonctionnement des différents scripts.
+
 ## oldies
 Ce dossier contient les vestiges de la première installation de ELK.
 
-## data
-Ce dossier contient toutes les données nécessaires au bon fonctionnement des différents scripts.
+## projets
+Ce dossier contient les différents projets qui ont été menés pour prendre en main ELK.
 
 # Sources - Références
 
