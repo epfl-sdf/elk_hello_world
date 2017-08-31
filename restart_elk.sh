@@ -1,8 +1,6 @@
 #!/bin/bash
-# petit script pour redémarrer le binz
-#zf170810.1045
-
-#source: 
+# petit script pour redemarrer elk
+#310817.1559
 
 sudo systemctl restart elasticsearch.service
 sudo systemctl restart kibana.service

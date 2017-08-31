@@ -1,6 +1,6 @@
 #!/bin/bash
 # petit script pour installer le binz
-#zf170817.1758
+#310817.1556
 
 #source: https://www.supinfo.com/articles/single/2498-elk-installation-configuration
 

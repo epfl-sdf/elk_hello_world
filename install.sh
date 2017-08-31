@@ -1,7 +1,6 @@
 #!/bin/bash
-# petit script pour installer le binz
-#zf170817.1758
-#source: https://www.rosehosting.com/blog/install-and-configure-the-elk-stack-on-ubuntu-16-04/
+#Petit script pour installer ELK avec la derniere version
+#310817.1556
 
 sudo apt-get -y install jruby
 
@@ -48,13 +47,3 @@ sudo service kibana restart
 
 sudo /usr/share/logstash/bin/logstash-plugin install logstash-filter-elasticsearch
 sudo chmod -R 777 /usr/share/logstash/data
-
-
-#a faire toi meme
-#-Xms300m
-#-Xmx300m
-
-
-#sudo nano /etc/elasticsearch/jvm.options
-
-

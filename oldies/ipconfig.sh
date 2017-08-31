@@ -1,3 +1,6 @@
+#!/bin/bash
+#Petit script pour mettre a jour l'adresse ip de la machine sur les services kibana et elassticsearch
+#310817.1557
 
 THEIP=$(/sbin/ifconfig ens18 | /bin/grep "inet ad" | /usr/bin/cut -f2 -d: | /usr/bin/awk '{print $1}')
 
