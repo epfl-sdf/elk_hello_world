@@ -11,7 +11,7 @@
 
 # Présentation
 
-Ce dossier contient les différents fichiers nécessaires au fonctionnement des tests sur les logs de wwp (erreurs du portage des sites en worpress). Le but est de ce faire la main sur une petite partie des logs afin de pouvoir tous les traiter par la suite.
+<p align="justify">Ce dossier contient les différents fichiers nécessaires au fonctionnement des tests sur les logs de wwp (erreurs du portage des sites en worpress). Le but est de ce faire la main sur une petite partie des logs afin de pouvoir tous les traiter par la suite.</p>
 
 # Différents contenus
 
