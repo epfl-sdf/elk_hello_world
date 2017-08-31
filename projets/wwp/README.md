@@ -23,7 +23,7 @@ Le dossier data contient tout les logs liés à ce projet.
 
 ## Fichier
 
-Les différents fichier respectent les règles de nommage suivantes
+Les différents fichiers respectent les règles de nommage suivantes
 
 ### Préfixe
 
@@ -49,7 +49,7 @@ wwp_*
 
 ### Suffixe
 
-* Le suffixe indique quel type de fichier c'est , si c'est un fichier de config ou un fichier d'éxecution bash
+* Le suffixe indique quel type de fichier c'est, si c'est un fichier de config ou un fichier d'éxecution bash
 ```
-*.conf*     *.sh*
+*.conf     *.sh
 ```
