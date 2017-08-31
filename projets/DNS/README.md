@@ -33,7 +33,7 @@ DNS_*
 *csv_*    *grok_*
 ```
 
-* Dans le cas o il y a une version, on l'indique à la fin du nommage
+* Dans le cas où il y a une version, on l'indique à la fin du nommage
 ```
 *<version>.*
 ```
