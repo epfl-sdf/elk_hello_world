@@ -7,7 +7,7 @@
 
 # Contenu du dossier DNS
 
-Ce dossier contient les différents fichiers utiles au test de ELK sur des logs de test en "format" DNS
+Ce dossier contient les différents fichiers utiles au test de ELK sur des logs en "format" DNS
 
 # Nomenclature des fichiers
 
