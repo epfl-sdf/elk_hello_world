@@ -12,7 +12,6 @@
   * [Récupération du dépôt](#récupération-du-dépôt)
   * [Lancement des différents scripts](#lancement-des-différents-scripts)
 - [Différents dossiers présents](#différents-dossiers-présents)
-  * [data](#data)
   * [oldies](#oldies)
   * [projets](#projets)
 - [Références - Sources](#références---sources)
@@ -155,9 +154,6 @@ Il faut ce baser sur ce script pour pouvoir en faire un correspondant au projet 
 En input on a des logs qui sont traités par Logstash, une fois filtrés ils sont envoyés vers Elasticsearch qui les indexe. Kibana sert ensuite d'interface graphique pour visualiser les résultats obtenus par Elasticsearch.
 
 # Différents dossiers présents
-
-## data
-Ce dossier contient toutes les données nécessaires au bon fonctionnement des différents scripts.
 
 ## oldies
 Ce dossier contient les vestiges de la première installation de ELK.
