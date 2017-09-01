@@ -7,7 +7,7 @@
 
 # Présentation
 
-Ce dossier contient les différents projets du dépôt elk_hello_world
+Ce dossier contient les différents projets du dépôt elk_hello_world.
 
 # Différents projets
 
