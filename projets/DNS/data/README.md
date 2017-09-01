@@ -23,7 +23,7 @@ Les différents fichiers suivent les règles de nommages suivantes
 DNS_*
 ```
 
-* Le nombre de lignes contenues dans le fichier ensuite, par exemple, pour 1, 100 ou toutes les lignes
+* Le nombre de lignes contenues dans le fichier ensuite, par exemple, pour 100
 ```
 *100_*
 ```
